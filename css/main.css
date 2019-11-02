@@ -1,0 +1,157 @@
+/* MAIN CSS
+By Daniel Espinoza <espinoza.dev@gmail.com> */
+
+/* FONTS */
+@font-face {
+  font-family: "EBGaramond-Bold";
+  src: url("../fonts/EBGaramond-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/EBGaramond-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/EBGaramond-Bold.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/EBGaramond-Bold.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/EBGaramond-Bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/EBGaramond-Bold.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/EBGaramond-Bold.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EBGaramond-BoldItalic";
+  src: url("../fonts/EBGaramond-BoldItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/EBGaramond-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/EBGaramond-BoldItalic.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/EBGaramond-BoldItalic.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/EBGaramond-BoldItalic.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/EBGaramond-BoldItalic.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/EBGaramond-BoldItalic.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EBGaramond-Italic";
+  src: url("../fonts/EBGaramond-Italic.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/EBGaramond-Italic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/EBGaramond-Italic.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/EBGaramond-Italic.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/EBGaramond-Italic.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/EBGaramond-Italic.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/EBGaramond-Italic.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EBGaramond-Regular";
+  src: url("../fonts/EBGaramond-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/EBGaramond-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/EBGaramond-Regular.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/EBGaramond-Regular.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/EBGaramond-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/EBGaramond-Regular.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/EBGaramond-Regular.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.block {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+.logo {
+  background: url(../imgs/logo.svg) no-repeat center;
+  background-size: 100%;
+  width: 60px;
+  height: 42px;
+  margin: 0 0 25px 0;
+  text-indent: -9999px;
+}
+
+.info {
+  font-family: "EBGaramond-Regular";
+  font-size: 60px;
+  line-height: 1;
+}
+
+.info b {
+  font-family: "EBGaramond-Bold";
+}
+
+.info em {
+  font-family: "EBGaramond-Italic";
+}
+
+.info a,
+.info a:hover,
+.info a:focus,
+.info a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .block {
+    top: 25px;
+    left: 25px;
+  }
+
+  .logo {
+    margin: 0 0 25px 0;
+  }
+
+  .info {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .block {
+    top: 20px;
+    left: 20px;
+  }
+
+  .logo {
+    margin: 0 0 20px 0;
+  }
+
+  .info {
+    font-size: 36px;
+  }
+}

@@ -29,7 +29,11 @@
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 
-<body>
+<body id="top">
+    <div id="loader">
+        <div id="icon"></div>
+    </div>
+
     <header class="block">
         <a href="http://somosmillas.com/" class="logo">
             <h1>Millas</h1>
@@ -48,7 +52,7 @@
         </a>
     </div>
 
-    <div class="block black">
+    <div class="block black black-block">
         <div class="highlighted-text">
             <h3>
                 What makes <strong>Business Development</strong><br>
@@ -79,6 +83,12 @@
             </h3>
         </div>
     </div>
+
+    <a class="back-to-top">back to top</a>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/scrollTo.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

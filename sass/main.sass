@@ -13,6 +13,44 @@
 body
     position: relative
 
+    .back-to-top
+        position: fixed
+        bottom: 50px
+        right: 50px
+        text-decoration: underline
+        transition: 1s ease
+        display: none
+
+        +mobile
+            bottom: 25px
+            right: 25px
+
+        &.show
+            display: block
+
+        &.go-white
+            color: #fff
+
+#loader
+    background-color: #fff
+    bottom: 0
+    position: fixed
+    height: 100vh
+    left: 0
+    right: 0
+    top: 0
+    width: 100vw
+    z-index: 9999
+
+#icon
+    width: 75px
+    height: 51px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    background: url(../imgs/loader.svg) no-repeat center
+
 header
     background: url(../imgs/main-bg.jpg) no-repeat center
     background-size: cover

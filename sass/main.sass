@@ -10,6 +10,9 @@
 // SASS Code
 // MAIN CSS
 
+body
+    position: relative
+
 header
     background: url(../imgs/main-bg.jpg) no-repeat center
     background-size: cover
@@ -22,8 +25,8 @@ header
     min-height: 250px
 
     .logo
-        width: 251px
-        height: 28px
+        width: 200px
+        height: 22px
         position: absolute
         top: 50px
         left: 50%
@@ -34,8 +37,8 @@ header
             top: 25px
 
         +phone
-            width: 200px
-            height: 22px
+            width: 150px
+            height: 17px
 
         h1
             text-indent: -9999px
@@ -91,4 +94,31 @@ header
                 font-size: 36px
 
             +phone
-                font-size: 22px
+                font-size: 18px
+
+    &.pink
+        background: #CBAC9D
+
+        .highlighted-text
+            top: 50%
+            left: 50%
+            transform: translate(-50%,-50%)
+            width: 100%
+
+            h3
+                text-align: center
+                color: #000
+
+    &.contact
+
+        .highlighted-text
+
+            h3
+                font-size: 40px
+
+                a
+                    text-decoration: none
+                    color: #000
+
+                strong
+                    font-size: 36px

@@ -20,7 +20,7 @@ function onScroll() {
     let headerHeight = $('header').height();
     let scrollPosition = $(document).scrollTop() + headerHeight;
     let refElement = $('.black-block');
-    if ($(window).scrollTop() + headerHeight - 75 > headerHeight) {
+    if ($(window).scrollTop() - 75 > headerHeight) {
         $('.back-to-top').addClass('show');
     } else {
         $('.back-to-top').removeClass('show');

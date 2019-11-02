@@ -25,9 +25,6 @@ function onScroll() {
     } else {
         $('.back-to-top').removeClass('show');
     }
-    console.log(headerHeight,'headerHeight');
-    console.log(scrollPosition,'scrollPosition');
-    console.log(refElement.position().top,'block');
     if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
         $('.back-to-top').addClass('go-white');
     } else {

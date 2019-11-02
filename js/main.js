@@ -25,7 +25,7 @@ function onScroll() {
     } else {
         $('.back-to-top').removeClass('show');
     }
-    if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+    if (refElement.position().top - 75 <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition - 75) {
         $('.back-to-top').addClass('go-white');
     } else {
         $('.back-to-top').removeClass('go-white');

@@ -1,1 +1,94 @@
+// MAIN SASS
+// Developer: Daniel Espinoza
+// Email: espinoza.dev@gmail.com
+// Whatsapp: +5491127010154
+
+// Imports
+@import _mixins
 @import _fonts
+
+// SASS Code
+// MAIN CSS
+
+header
+    background: url(../imgs/main-bg.jpg) no-repeat center
+    background-size: cover
+
+header
+.block
+    position: relative
+    width: 100%
+    height: 100vh
+    min-height: 250px
+
+    .logo
+        width: 251px
+        height: 28px
+        position: absolute
+        top: 50px
+        left: 50%
+        transform: translateX(-50%)
+        background: url(../imgs/logo.svg) no-repeat center
+
+        +mobile
+            top: 25px
+
+        +phone
+            width: 200px
+            height: 22px
+
+        h1
+            text-indent: -9999px
+
+    .highlighted-text
+        position: absolute
+        top: 50%
+        left: 50px
+        transform: translateY(-50%)
+
+        +mobile
+            left: 25px
+
+        h3
+            font-family: 'EBGaramond-Regular'
+            font-weight: normal
+            font-size: 100px
+            line-height: 1
+
+            +mobile
+                font-size: 40px
+
+            em
+                font-family: 'EBGaramond-Italic'
+
+            strong
+                font-family: 'EBGaramond-Bold'
+
+    .logo-millas
+        width: 300px
+        height: 263px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        background: url(../imgs/logo-millas.svg) no-repeat
+
+        +mobile
+            width: 200px
+            height: 175px
+
+        h2
+            text-indent: -9999px
+
+    &.black
+        background: #000
+
+        .highlighted-text h3
+            font-size: 50px
+            color: #fff
+
+            +mobile
+                font-size: 36px
+
+            +phone
+                font-size: 22px

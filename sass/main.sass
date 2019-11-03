@@ -195,9 +195,15 @@ header
         font-weight: normal
         text-align: center
 
+        +phone
+            font-size: 20px
+
         strong
             font-family: 'EBGaramond-Bold'
             font-size: 40px
+
+            +phone
+                font-size: 24px
 
     .grid
 
@@ -217,8 +223,17 @@ header
         .grid-block
             margin-bottom: 200px
 
+            &:last-of-type
+                margin-bottom: 150px
+
+                +mobile
+                    margin-bottom: 50px
+
             +mobile
                 margin-bottom: 100px
+
+            .item
+                margin-bottom: 50px
 
         .info
             font-size: 20px
@@ -226,6 +241,14 @@ header
 
             &:first-of-type
                 margin-top: 25px
+
+            &.centered
+                text-align: center
+
+                img
+                    display: block
+                    text-align: center
+                    margin: 0 auto 25px
 
             +phone
                 .xs-hidden

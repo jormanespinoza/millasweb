@@ -1,21 +1,16 @@
 $(window).on('load', function () {
-    // Loader
     $('#loader').delay(350).fadeOut('slow');
     $('#icon').fadeOut('slow');
-    // Init Scroll function
     onScroll();
 });
 
 $(function () {
-    // Smoth Scroll
     $(document).on('scroll', onScroll);
-
     $('.back-to-top').on('touchstart click', function () {
         $(window).scrollTo('#top', 1000);
     });
 });
 
-// Detects current section when scroll
 function onScroll() {
     let headerHeight = $('header').height();
     let scrollPosition = $(document).scrollTop() + headerHeight;

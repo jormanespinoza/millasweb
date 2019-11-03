@@ -1,3 +1,8 @@
+// MAIN JS
+// Developer: Daniel Espinoza
+// Email: espinoza.dev@gmail.com
+// Whatsapp: +5491127010154
+
 $(window).on('load', function () {
     $('#loader').delay(350).fadeOut('slow');
     $('#icon').fadeOut('slow');

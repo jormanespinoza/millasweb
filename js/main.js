@@ -34,5 +34,5 @@ function onScroll() {
 
 // detect IE, Edge, Safari browsers
 if (document.documentMode || /Edge/.test(navigator.userAgent) || (/Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent))) {
-    document.documentElement.className = "scroll-update-fix";
+    document.documentElement.className = 'scroll-update-fix';
 }

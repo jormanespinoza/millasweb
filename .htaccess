@@ -13,6 +13,7 @@ RewriteRule ^(.*)$ http://www.somosmillas.com/$1 [R=301,L]
 
 # Files
 RewriteRule /css/(.+)$ css/$1  [L]
+RewriteRule /sass/(.+)$ sass/$1  [L]
 RewriteRule /fonts/(.+)$ fonts/$1  [L]
 RewriteRule /js/(.+)$ js/$1  [L]
 RewriteRule /imgs/(.+)$ imgs/$1  [L]

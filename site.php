@@ -35,7 +35,7 @@
         <div id="icon"></div>
     </div>
 
-    <header class="block">
+    <header class="block fixed" data-parallax="scroll" data-image-src="./imgs/main-bg.jpg">
         <a href="<?php echo BASEURL; ?>" class="logo">
             <h1>Millas</h1>
         </a>
@@ -158,6 +158,7 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/scrollTo.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

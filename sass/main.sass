@@ -53,6 +53,7 @@ body
 
 header
     background: transparent
+    background-attachment: scroll
 
 header
 .block
@@ -144,16 +145,23 @@ header
             width: 100%
 
             h3
+                font-size: 50px
                 text-align: center
                 color: #000
+
+                +mobile
+                    font-size: 36px
+
+                +phone
+                    font-size: 20px
 
     &.contact
 
         .highlighted-text
+            top: 150px
 
             h3
-                font-size: 40px
-                line-height: 1
+                font-size: 46px
 
                 +mobile
                     line-height: 1.5
@@ -167,14 +175,13 @@ header
                     text-decoration: none
 
                 strong
-                    font-size: 36px
+                    font-size: 40px
 
                     +mobile
                         font-size: 26px
 
                     +phone
                         font-size: 20px
-
 
 .container-fluid
     padding-left: 50px
@@ -234,7 +241,7 @@ header
                 margin-bottom: 50px
 
         .info
-            font-size: 20px
+            font-size: 26px
             line-height: 1.5
 
             &:first-of-type
@@ -254,4 +261,4 @@ header
 
             span
                 display: block
-                font-size: 18px
+                font-size: 22px

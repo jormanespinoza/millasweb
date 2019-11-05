@@ -35,31 +35,43 @@
         <div id="icon"></div>
     </div>
 
-    <header class="block fixed" data-parallax="scroll" data-image-src="./imgs/main-bg.jpg">
-        <a href="<?php echo BASEURL; ?>" class="logo">
-            <h1>Millas</h1>
-        </a>
-        <div class="highlighted-text">
-            <h3>
-                Be <em>creative</em><br>
-                Be <strong>profitable.</strong>
-            </h3>
+    <header class="block block-fixed">
+        <div class="block-clip">
+            <div class="block-content">
+                <a href="<?php echo BASEURL; ?>" class="logo">
+                    <h1>Millas</h1>
+                </a>
+                <div class="highlighted-text">
+                    <h3>
+                        Be <em>creative</em><br>
+                        Be <strong>profitable.</strong>
+                    </h3>
+                </div>
+            </div>
         </div>
     </header>
 
-    <div class="block">
-        <a href="<?php echo BASEURL; ?>" class="logo-millas">
-            <h2>Millas</h2>
-        </a>
+    <div class="block block-fixed">
+        <div class="block-clip">
+            <div class="block-content">
+                <a href="<?php echo BASEURL; ?>" class="logo-millas">
+                    <h2>Millas</h2>
+                </a>
+            </div>
+        </div>
     </div>
 
-    <div class="block black black-block">
-        <div class="highlighted-text">
-            <h3>
-                What makes <strong>Business Development</strong><br>
-                <strong><em>fascinating</em></strong> is that the <em>best deals</em> have<br>
-                never been done before.
-            </h3>
+    <div class="block black black-block block-fixed">
+        <div class="block-clip">
+            <div class="block-content">
+                <div class="highlighted-text">
+                    <h3>
+                        What makes <strong>Business Development</strong><br>
+                        <strong><em>fascinating</em></strong> is that the <em>best deals</em> have<br>
+                        never been done before.
+                    </h3>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -131,26 +143,34 @@
         </div>
     </div>
 
-    <div class="block black pink">
-        <div class="highlighted-text">
-            <h3>
-                Creativity is not <em>magic</em>.<br>
-                <strong>Creativity is for everyone.</strong><br>
-            </h3>
+    <div class="block black pink block-fixed">
+        <div class="block-clip">
+            <div class="block-content">
+                <div class="highlighted-text">
+                    <h3>
+                        Creativity is not <em>magic</em>.<br>
+                        <strong>Creativity is for everyone.</strong><br>
+                    </h3>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="block contact">
-        <div class="highlighted-text">
-            <h3>
-                <strong>Contact</strong><br>
-                <a href="mailto:hola@somosmillas.com">hola@somosmillas.com</a><br>
-                <a href="tel:+5491168313352">+54 9 116 831 3352</a><br>
-                <a href="https://www.instagram.com/somosmillas/" target="_blank"
-                    rel="noopener noreferrer">Instagram</a><br>
-                <a href="https://www.linkedin.com/company/millasbusinessdevelopment/" target="_blank"
-                    rel="noopener noreferrer">Linkedin</a>
-            </h3>
+    <div class="block contact block-fixed">
+        <div class="block-clip">
+            <div class="block-content">
+                <div class="highlighted-text">
+                    <h3>
+                        <strong>Contact</strong><br>
+                        <a href="mailto:hola@somosmillas.com">hola@somosmillas.com</a><br>
+                        <a href="tel:+5491168313352">+54 9 116 831 3352</a><br>
+                        <a href="https://www.instagram.com/somosmillas/" target="_blank"
+                            rel="noopener noreferrer">Instagram</a><br>
+                        <a href="https://www.linkedin.com/company/millasbusinessdevelopment/" target="_blank"
+                            rel="noopener noreferrer">Linkedin</a>
+                    </h3>
+                </div>
+            </div>
         </div>
     </div>
 

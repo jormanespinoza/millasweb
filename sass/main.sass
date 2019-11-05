@@ -8,6 +8,10 @@
 @import _fonts
 
 // SASS Code
+html,
+body
+    height: 100%
+
 body
     position: relative
 
@@ -52,8 +56,8 @@ body
     background: url(../imgs/loader.svg) no-repeat center
 
 header
-    background: transparent
-    background-attachment: scroll
+    background: url(../imgs/main-bg.jpg) no-repeat center
+    background-size: cover
 
 header
 .block
@@ -265,3 +269,25 @@ header
             span
                 display: block
                 font-size: 22px
+
+.block-clip
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    clip: rect(auto, auto, auto, auto)
+
+.block-content
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    margin: auto
+
+    .scroll-update-fix
+        animation: paintpatch 1s linear infinite
+
+.block-fixed .block-content
+    position: fixed

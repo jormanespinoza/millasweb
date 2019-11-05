@@ -158,7 +158,6 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/scrollTo.min.js"></script>
-    <script src="./js/parallax.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 

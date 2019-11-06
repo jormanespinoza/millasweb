@@ -91,7 +91,7 @@
                         <span>01</span><br>
                         We generate <strong>creative</strong><br>
                         <strong>solutions</strong> for the <em>growth</em><br>
-                        <em>and expand</em> of your<br>
+                        <em>and expansion</em> of your<br>
                         business.
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                     <div class="info centered">
                         <img src="./imgs/grid-03.jpg" alt="Millas - Our Work - Imagen #3">
                         We want to see talented people like you,<br>
-                        make a living <strong>what they love,</strong><br>
+                        make a living doing <strong>what they love,</strong><br>
                         <strong><em>and let us handle the rest.</em></strong>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                     <div class="info centered">
                         <img src="./imgs/grid-05.jpg" alt="Millas - Our Work - Imagen #5">
                         Even the best performing business have<br>
-                        <strong><em>for improvement.</em></strong>
+                        room<strong><em> for improvement.</em></strong>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,8 @@ body
 
         +mobile
             bottom: 25px
-            right: 25px
+            right: unset
+            left: 50px
 
         &.show
             display: block
@@ -76,13 +77,6 @@ header
         transform: translateX(-50%)
         background: url(../imgs/logo.svg) no-repeat center
 
-        +mobile
-            top: 25px
-
-        +phone
-            width: 150px
-            height: 17px
-
         h1
             text-indent: -9999px
 
@@ -92,8 +86,11 @@ header
         left: 50px
         transform: translateY(-50%)
 
-        +mobile
-            left: 25px
+        +phone
+            width: 100%
+            position: absolute
+            left: 50%
+            transform: translate(-50%,-50%)
 
         h3
             font-family: 'EBGaramond-Regular'
@@ -102,8 +99,14 @@ header
             line-height: 1
 
             +mobile
+                font-size: 60px
+
+            +phone
+                font-size: 50px
+                margin-left: 50px
+
+            +small
                 font-size: 40px
-                line-height: 1.5
 
             em
                 font-family: 'EBGaramond-Italic'
@@ -134,13 +137,19 @@ header
             font-size: 50px
             color: #fff
 
+            +tablet
+                font-size: 46px
+
             +mobile
-                font-size: 36px
+                font-size: 32px
 
             +phone
-                font-size: 20px
+                font-size: 29px
 
-    &.pink
+            +small
+                font-size: 23px
+
+    &.brown
         background: #CBAC9D
 
         .highlighted-text
@@ -155,27 +164,42 @@ header
                 color: #000
 
                 +mobile
-                    font-size: 36px
+                    margin-left: 56px
+                    text-align: left
+                    font-size: 50px
 
                 +phone
-                    font-size: 20px
+                    font-size: 52px
+
+                +small
+                    font-size: 33px
 
     &.contact
+        +mobile
+            height: 70vh
 
         .highlighted-text
             top: 150px
+
+            +mobile
+                top: 125px
 
             h3
                 font-size: 46px
 
                 +mobile
-                    line-height: 1.5
-                    font-size: 30px
+                    font-size: 40px
+                    line-height: 1
 
                 +phone
-                    font-size: 20px
+                    font-size: 30px
+
+                +small
+                    font-size: 26px
 
                 a
+                    font-family: 'EBGaramond-Regular'
+                    font-weight: normal
                     color: #000
                     text-decoration: none
 
@@ -183,37 +207,46 @@ header
                     font-size: 40px
 
                     +mobile
-                        font-size: 26px
+                        font-size: 40px
 
                     +phone
-                        font-size: 20px
+                        font-size: 30px
+
+                    +small
+                        font-size: 26px
 
 .container-fluid
     padding-left: 50px
     padding-right: 50px
 
-    +mobile
-        padding-left: 25px
-        padding-right: 25px
+    &.custom
+        padding-left: 0
+        padding-right: 0
+
+        .row
+            padding-left: 50px
+            padding-right: 50px
 
 .work
 
     h3
-        margin-top: 40px
+        margin-top: 50px
         font-family: 'EBGaramond-Regular'
-        font-size: 26px
+        font-size: 32px
         font-weight: normal
         text-align: center
 
-        +phone
-            font-size: 20px
+        +mobile
+            margin-top: 34px
+            font-size: 28px
+            text-align: left
 
         strong
             font-family: 'EBGaramond-Bold'
-            font-size: 40px
+            font-size: 50px
 
-            +phone
-                font-size: 24px
+            +mobile
+                font-size: 36px
 
     .grid
 
@@ -227,17 +260,41 @@ header
             display: flex
             flex-direction: column-reverse
 
+            +mobile
+                flex-direction: column
+
             .info
                 margin-bottom: 50px
 
+            &.xs-hide
+                display: none
+
         .grid-block
             margin-bottom: 200px
+
+            &:first-of-type
+                margin-bottom: 200px
+
+                +mobile
+                    margin-bottom: 0px
+
+            &.special-grid
+                margin-top: 200px
+
+                +mobile
+                    margin-top: 25px
 
             &:last-of-type
                 margin-bottom: 150px
 
                 +mobile
                     margin-bottom: 50px
+
+            &.grid-mobile-header
+
+                +mobile
+                    background: url(../imgs/grid-01.jpg) no-repeat center
+                    background-size: cover
 
             +mobile
                 margin-bottom: 100px
@@ -252,20 +309,28 @@ header
             +tablet
                 font-size: 20px
 
+            +mobile
+                font-size: 20px
+
+            +phone
+                font-size: 19px
+
+            +small
+                font-size: 16px
+
             &:first-of-type
                 margin-top: 25px
 
             &.centered
                 text-align: center
 
+                +mobile
+                    text-align: left
+
                 img
                     display: block
                     text-align: center
                     margin: 0 auto 25px
-
-            +phone
-                .xs-hidden
-                    display: none
 
             span
                 display: block
@@ -292,3 +357,16 @@ header
 
 .block-fixed .block-content
     position: fixed
+
+.lg-hide
+    display: block
+
+.xs-show
+    display: none
+
++mobile
+    .xs-hide
+        display: none
+
+    .xs-show
+        display: block

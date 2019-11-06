@@ -66,8 +66,8 @@
             <div class="block-content">
                 <div class="highlighted-text">
                     <h3>
-                        What makes <strong>Business Development</strong><br>
-                        <strong><em>fascinating</em></strong> is that the <em>best deals</em> have<br>
+                        What makes <strong>Business <br class="xs-show">Development</strong><br class="xs-hide">
+                        <strong><em>fascinating<br class="xs-show"></em></strong> is that the <em>best deals</em> have<br class="xs-hide"><br class="xs-show">
                         never been done before.
                     </h3>
                 </div>
@@ -76,15 +76,47 @@
     </div>
 
     <div class="work">
-        <h3>
-            What we do<br>
-            <strong>Our Work</strong>
-        </h3>
-
+        <div class="grid container-fluid custom xs-show">
+            <div class="row grid-block grid-mobile-header">
+                <div class="col-12">
+                    <h3>
+                        What we do<br>
+                        <strong>Our Work</strong>
+                    </h3>
+                </div>
+                <div class="col-12">
+                    <img src="./imgs/grid-01.jpg" alt="Millas - Our Work - Imagen #1" class="xs-hide">
+                </div>
+                <div class="col-12">
+                    <div class="info">
+                        <span>01</span><br>
+                        We generate <strong>creative</strong><br>
+                        <strong>solutions</strong> for the <em>growth</em><br>
+                        <em>and expansion</em> of your<br>
+                        business.
+                    </div>
+                </div>
+                <div class="col-12 grid-block special-grid">
+                    <div class="info">
+                        <span>02</span>
+                        We turn new and imaginative ideas into <br class="xs-hide">
+                        <strong>profitable businesses.</strong><br><br>
+                        <strong>We generate solutions</strong> using <em>creativity</em> <br class="xs-hide">
+                        to perceive the world in new ways, to find hidden patterns and to <strong>make <br class="xs-hide">connections between seemingly unrelated<br>phenomena.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="grid container-fluid">
-            <div class="row grid-block">
-                <div class="col-sm-6">
-                    <img src="./imgs/grid-01.jpg" alt="Millas - Our Work - Imagen #1">
+            <div class="row grid-block xs-hide">
+                <div class="col-12">
+                    <h3>
+                        What we do<br>
+                        <strong>Our Work</strong>
+                    </h3>
+                </div>
+                <div class="col-sm-6 xs-hide">
+                    <img src="./imgs/grid-01.jpg" alt="Millas - Our Work - Imagen #1" class="xs-hide">
                 </div>
                 <div class="col-sm-6 reversed">
                     <div class="info">
@@ -95,19 +127,17 @@
                         business.
                     </div>
                 </div>
-            </div>
-            <div class="row grid-block">
-                <div class="col-12">
+                <div class="col-12 grid-block special-grid">
                     <div class="info">
                         <span>02</span>
-                        We turn new and imaginative ideas into <br class="xs-hidden">
+                        We turn new and imaginative ideas into <br class="xs-hide">
                         <strong>profitable businesses.</strong><br><br>
-                        <strong>We generate solutions</strong> using <em>creativity</em> <br class="xs-hidden">
-                        to perceive the world in new ways, to find hidden patterns and to <strong>make <br
-                                class="xs-hidden">connections between seemingly unrelated<br>phenomena.</strong>
+                        <strong>We generate solutions</strong> using <em>creativity</em> <br class="xs-hide">
+                        to perceive the world in new ways, to find hidden patterns and to <strong>make <br class="xs-hide">connections between seemingly unrelated<br>phenomena.</strong>
                     </div>
                 </div>
             </div>
+
             <div class="row grid-block">
                 <div class="col-sm-6 item">
                     <div class="info centered">
@@ -143,21 +173,21 @@
         </div>
     </div>
 
-    <div class="block black pink block-fixed">
+    <div class="block black brown block-fixed">
         <div class="block-clip">
             <div class="block-content">
                 <div class="highlighted-text">
                     <h3>
-                        Creativity is not <em>magic</em>.<br>
-                        <strong>Creativity is for everyone.</strong><br>
+                        Creativity<br class="xs-show"> is not <em>magic</em>.<br class="xs-hide"><br class="xs-show">
+                        <strong>Creativity<br class="xs-show"> is for everyone.</strong><br>
                     </h3>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="block contact block-fixed">
-        <div class="block-clip">
+    <div class="block contact">
+        <div class="">
             <div class="block-content">
                 <div class="highlighted-text">
                     <h3>

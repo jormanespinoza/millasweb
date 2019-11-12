@@ -102,7 +102,7 @@
                         We turn new and imaginative ideas into <br class="xs-hide">
                         <strong>profitable businesses.</strong><br><br>
                         <strong>We generate solutions</strong> using <em>creativity</em> <br class="xs-hide">
-                        to perceive the world in new ways, to find hidden patterns and to <strong>make <br class="xs-hide">connections between seemingly unrelated<br class="xs-hide">phenomena.</strong>
+                        to perceive the world in new ways, to find hidden patterns and to <strong>make <br class="xs-hide">connections between seemingly unrelated <br class="xs-hide">phenomena.</strong>
                     </div>
                 </div>
             </div>

@@ -151,8 +151,8 @@
                 <div class="col-sm-6 item">
                     <div class="info centered">
                         <img src="./imgs/grid-03.jpg" alt="Millas - Our Work - Imagen #3">
-                        We want to see talented people like you,<br>
-                        make a living doing <strong>what they love,</strong><br>
+                        We want to see talented people like you, <br class="hidden-on-table">
+                        make a living doing <strong>what they love,</strong> <br class="hidden-on-table">
                         <strong><em>and let us handle the rest.</em></strong>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
                 <div class="col-sm-6 item">
                     <div class="info centered">
                         <img src="./imgs/grid-05.jpg" alt="Millas - Our Work - Imagen #5">
-                        Even the best performing business have<br>
+                        Even the best performing business have <br class="hidden-on-table">
                         room<strong><em> for improvement.</em></strong>
                     </div>
                 </div>

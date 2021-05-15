@@ -166,7 +166,7 @@
                 <div class="col-sm-6 item">
                     <div class="info centered">
                         <img src="./imgs/grid-05.jpg" alt="Millas - Our Work - Imagen #5">
-                        Even the best performing business have <br class="hidden-on-table">
+                        Even the best performing businesses have <br class="hidden-on-table">
                         room<strong><em> for improvement.</em></strong>
                     </div>
                 </div>
@@ -193,9 +193,9 @@
                 <div class="highlighted-text">
                     <h3>
                         <strong>Contact</strong><br>
-                        <a href="mailto:hola@somosmillas.com">hola@somosmillas.com</a><br>
+                        <a href="mailto:hi@madebymillas.com">hi@madebymillas.com</a><br>
                         <a href="tel:+5491168313352">+54 9 116 831 3352</a><br>
-                        <a href="https://www.instagram.com/somosmillas/" target="_blank"
+                        <a href="https://www.instagram.com/madebymillas/" target="_blank"
                             rel="noopener noreferrer">Instagram</a><br>
                         <a href="https://www.linkedin.com/company/millasbusinessdevelopment/" target="_blank"
                             rel="noopener noreferrer">Linkedin</a>
